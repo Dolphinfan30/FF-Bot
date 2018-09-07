@@ -10,7 +10,7 @@ from operator import attrgetter
 
 
 startup_extensions = ["stats"]
-bot = commands.Bot(command_prefix="/")
+bot = commands.Bot(command_prefix="!ESPN")
 
 # @bot.event
 # async def on_server_join(server):
